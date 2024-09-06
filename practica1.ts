@@ -8,7 +8,7 @@ interface ITutor {
 interface ITutorado {
     id: number;
     nombre: string;
-    identificacion: string;
+    identificacion:string;
 }
 
 interface ITutoria {
