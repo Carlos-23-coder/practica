@@ -63,7 +63,7 @@ async function ejecutarBusquedaTutoria(id: number): Promise<void> {
 // Obtener datos de usuarios desde un servicio REST
 async function obtenerDatosUsuarios(): Promise<void> {
     try {
-        const respuesta = await fetch("https://jsonplaceholder.typicode.com/todos/1");
+        const respuesta = await fetch("https://gorest.co.in/public/v2/users");
         const usuarios = await respuesta.json();
         console.log("Usuarios obtenidos:", usuarios);
     } catch (error) {
